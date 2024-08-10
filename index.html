@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__col">
+						<a href="http://localhost:3000/" class="logo">
+							<div class="logo__img">
+								<img src="./img/logo-2.png" alt="ортопед дніпро">
+							</div>
+							<div class="logo__logo-text logo-text">
+								<span class="logo-text__title">Ortoped</span>
+								<span class="logo-text__subtitle">dentist dnipro</span>
+							</div>
+						</a>
+					</div>
+					<div class="header__col">
+						<nav class="nav" id="mobMenu">
+							<ul>
+								<li><a class="link header__link" href="#">Мої роботи</a></li>
+								<li><a class="link header__link" href="#">Протези</a></li>
+								<li><a class="link header__link" href="#">Сертифікати</a></li>
+								<li><a class="link header__link" href="#">Ціни</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__col">
+						<div class="mob-menu" id="mobMenuBtn">
+							<span class="mob-menu__btn"></span>
+						</div>
+						<div class="select-lang" id="selectLang"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="section section-main">
+				<div class="container">
+					<div class="row row-two-col">
+						<div class="col">
+							<div class="section-main__content">
+								<div class="section-main__title">
+									<h1>
+										Протезування зубів
+										<span>у Дніпрі</span>
+									</h1>
+								</div>
+								<div class="section-main__links">
+									<a href="tel:+380679949901">+38(067)994-9901</a>
+									<a href="tel:+380679949901">+38(067)994-9901</a>
+								</div>
+								<div class="section-main__text">
+									<p>Професійне від&shy;нов&shy;ле&shy;ння част&shy;ко&shy;во зруй&shy;но&shy;ва&shy;них або
+										втра&shy;че&shy;них зу&shy;бів. Усі ви&shy;ди зуб&shy;них про&shy;те&shy;зів:
+										<span>про&shy;те&shy;зу&shy;ва&shy;ння на імп&shy;лан&shy;тах,</span> ві&shy;ні&shy;ри,
+										вклад&shy;ки, ко&shy;рон&shy;ки, мости.</p>
+								</div>
+								<div class="section-main__buttons">
+									<button class="btn btn-consultation">Консультація</button>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="section-main__img">
+								<img src="./img/general/222.png" alt="протезування зубів - Бражнікова Ганна">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wave">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+						<path fill="#ffffff" fill-opacity="1"
+							d="M0,160L48,160C96,160,192,160,288,160C384,160,480,160,576,149.3C672,139,768,117,864,90.7C960,64,1056,32,1152,21.3C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+						</path>
+					</svg>
+				</div>
+			</section>
+			<section class="section section-gallery">
+				<div class="container">
+					<div class="section__title">
+						<h2>Мої роботи</h2>
+					</div>
+					<div class="section-gallery__wrapper">
+						<div class="gallery" id="gallery">
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-1">
+								</span>
+							</div>
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-2">
+								</span>
+							</div>
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-3">
+								</span>
+							</div>
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-4">
+								</span>
+							</div>
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-5">
+								</span>
+							</div>
+							<div class="image" data-src="./img/ex_img/stomatolog.png">
+								<span>
+									<img src="./img/ex_img/330х218-2.png" alt="img-6">
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="preview-wrapper">
+					<div class="preview-box">
+						<div class="details">
+							<span class="details__title">
+								Image <p class="current-img"></p> of <p class="total-img"></p>
+							</span>
+							<span class="preview-box__icon fa-solid fa-xmark"></span>
+						</div>
+						<div class="img-box">
+							<div class="slide prev">
+								<i class="fa-solid fa-angle-left"></i>
+							</div>
+							<div class="slide next">
+								<i class="fa-solid fa-angle-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<h1>footer</h1>
+		</footer>
+	</div>
+
+	<!-- Вступив в бой с шипящими змеями - эфой и гадюкой - маленький, цепкий, храбрый ёж съел их. -->
+	<script src="https://kit.fontawesome.com/2ed025819a.js" crossorigin="anonymous"></script>
+	<script src="./js/app.min.js"></script>
+
+</body>
+
+</html>
